@@ -51,7 +51,7 @@ Please see the [wiki](https://github.com/bhoogter/VB6TocSharp/wiki) for more inf
 
 ## Design Considerations
 
-- Simple - Not designed to do a 100% conversion.  Just maybe an 80% - 90% of the grunt work.
+- Simple - Not designed to do a 100% conversion.  Just maybe an 80% - 90% of the grunt work.  The converter leaves comments where it can to guide the rest of the process (e.g., to inspect range bounds).
 - VB6 Based - Because, why not?  You have to have a working VB6 compiler if you're converting FROM vb6 anyway.
 - Custom - This was created for a personal project, and hence, is specifically tailored for our use case.  But, there isn't any reason why someone couldn't invesitgate the logic and tweak it for any of their own issues.
 - Opportunistic - This code heavily relies on relative uniformity of the VB6 IDE:
@@ -101,3 +101,4 @@ The project is largely as-is.  It works at what it does.  However, a few things 
 ## Contact
 
 - If you do have any questions, concerns, or simply would like some quick pointers, feel free to open an Issue.  I can't guarantee much, but I do try!
+
